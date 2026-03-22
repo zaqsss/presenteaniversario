@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Para Você, Meu Amor</title>
+    <meta name="description" content="Uma página especial feita com todo amor do mundo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Soft floating hearts -->
+    <div class="hearts-bg" id="heartsBg"></div>
+
+    <!-- ===== LOGIN ===== -->
+    <section class="page active" id="loginPage">
+        <div class="container">
+            <div class="lock-icon" id="lockIcon">🔒</div>
+            <h1 class="page-title">Esta página é só sua 💕</h1>
+            <p class="page-desc">Prove que é você respondendo nossas perguntas secretas...</p>
+
+            <form class="login-form" id="loginForm" autocomplete="off">
+                <div class="field">
+                    <label for="loginInput">Qual figurinha a gente sempre manda antes de dormir?</label>
+                    <input type="text" id="loginInput" placeholder="Digite aqui..." autocomplete="off"
+                        spellcheck="false">
+                </div>
+                <div class="field">
+                    <label for="passwordInput">O quanto eu te amo?</label>
+                    <input type="text" id="passwordInput" placeholder="Digite aqui..." autocomplete="off"
+                        spellcheck="false">
+                </div>
+                <button type="submit" class="btn btn-primary" id="loginBtn">Entrar no nosso mundo 💫</button>
+                <p class="error-msg" id="errorMsg">Hmm, não é bem isso... Tenta de novo! 💔</p>
+                <p class="hint-text">Dica: Pense no que fazemos toda noite antes de dormir... e no que não tem fim 💭
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== HINT 1 ===== -->
+    <section class="page" id="hint1Page">
+        <div class="container">
+            <p class="hint-step">1 de 3 💌</p>
+            <div class="hint-card">
+                <span class="hint-emoji">🌙</span>
+                <h2>Primeira dica</h2>
+                <p>É algo que a gente faz toda noite antes de dormir... é nosso ritual sagrado. Você sabe o que é? 😊
+                </p>
+            </div>
+            <button class="btn btn-soft" id="hint1Btn">Achei! 💡</button>
+        </div>
+    </section>
+
+    <!-- ===== HINT 2 ===== -->
+    <section class="page" id="hint2Page">
+        <div class="container">
+            <p class="hint-step">2 de 3 💌</p>
+            <div class="hint-card">
+                <span class="hint-emoji">💬</span>
+                <h2>Segunda dica</h2>
+                <p>É a palavra que eu mais uso quando falo da gente... porque descreve perfeitamente o que sinto por
+                    você. Não tem medida! 💕</p>
+            </div>
+            <button class="btn btn-soft" id="hint2Btn">Achei! 💡</button>
+        </div>
+    </section>
+
+    <!-- ===== HINT 3 ===== -->
+    <section class="page" id="hint3Page">
+        <div class="container">
+            <p class="hint-step">3 de 3 💌</p>
+            <div class="hint-card">
+                <span class="hint-emoji">💖</span>
+                <h2>Última dica</h2>
+                <p>Você é a pessoa que me faz sorrir todos os dias. Tá pronta pra ver o que eu preparei pra você? 🥰</p>
+            </div>
+            <button class="btn btn-soft" id="hint3Btn">Achei! 💡</button>
+        </div>
+    </section>
+
+    <!-- ===== MAIN APP (after hints) ===== -->
+    <section class="page" id="appPage">
+
+        <!-- NAVBAR -->
+        <nav class="navbar" id="navbar">
+            <span class="nav-brand">💕</span>
+            <div class="nav-links">
+                <button class="nav-link active" data-tab="inicio" id="navInicio">Início</button>
+                <button class="nav-link" data-tab="estudos" id="navEstudos">Estudos</button>
+            </div>
+        </nav>
+
+        <!-- TAB: INÍCIO -->
+        <div class="tab-content active" id="tabInicio">
+            <div class="container welcome-container">
+                <div class="welcome-header">
+                    <span class="big-heart">💖</span>
+                    <div class="photo-frame">
+                        <img src="foto.jpeg" alt="Meu amor" class="photo-img" id="photoImg">
+                    </div>
+                    <h1 class="page-title welcome-title">Boa minha light yagami 🥰</h1>
+                    <p class="page-desc">Meu amor, fiz essa página especialmente pra você</p>
+                </div>
+
+                <div class="love-letter">
+                    <h2>Feliz aniversário, meu amor 🎂💕</h2>
+                    <p>Hoje é o dia da pessoa mais especial que eu já conheci na minha vida. É tão difícil colocar em
+                        palavras tudo o que eu sinto por você, mas eu vou tentar porque você merece ouvir isso todos os
+                        dias, e principalmente hoje.</p>
+                    <p>Desde que você apareceu na minha vida, tudo ficou mais bonito. As coisas mais simples, tipo ficar
+                        no telefone sem falar nada, mandar figurinha antes de dormir, rir de besteira às 3 da manhã...
+                        tudo isso se tornou a melhor parte do meu dia. E é tudo por sua causa. 🥹</p>
+                    <p>Eu amo cada pedacinho seu. Amo quando você faz birra, amo quando você ri daquele jeitinho, amo
+                        quando você me manda "bensa" antes de dormir, amo quando você fala que me ama do nada. Amo até
+                        quando você tá brava comigo, porque mesmo assim eu olho pra você e penso "como eu sou sortudo".
+                    </p>
+                    <p>Você me ensinou o que é amar de verdade. Não aquele amor de filme, mas aquele amor real, de todo
+                        dia, de querer estar junto mesmo quando tá difícil, de querer ver o outro feliz mais do que
+                        qualquer coisa no mundo.</p>
+                    <p>Então hoje, no seu dia, eu quero que você saiba: eu te amo infinito. Não é exagero, não é força
+                        de expressão. É o que eu sinto. Cada dia mais. E vou continuar te amando assim, sem parar, sem
+                        cansar, sem diminuir.</p>
+                    <p>Feliz aniversário, meu anjo. Que esse novo ano seja cheio de risadas, de conquistas, de momentos
+                        nossos, e que eu possa estar do seu lado em cada um deles. Você merece o mundo inteiro, e eu vou
+                        fazer de tudo pra te dar pelo menos um pedacinho dele todos os dias. 💖</p>
+                    <p>Te amo mais do que macarrão com vina. E olha que isso é MUITO. 💕</p>
+                </div>
+
+                <h2 class="section-title">Motivos pelos quais eu te amo ✨</h2>
+                <div class="reasons-grid">
+                    <div class="reason-card" style="--i:1"><span>👼</span>
+                        <p>Você é meu anjo</p>
+                    </div>
+                    <div class="reason-card" style="--i:2"><span>🍝</span>
+                        <p>Amo você mais que macarrão com vina</p>
+                    </div>
+                    <div class="reason-card" style="--i:3"><span>🌙</span>
+                        <p>Os seus boa noite</p>
+                    </div>
+                    <div class="reason-card" style="--i:4"><span>😤</span>
+                        <p>Suas birras</p>
+                    </div>
+                    <div class="reason-card" style="--i:5"><span>🥰</span>
+                        <p>Seu jeitinho perfeito</p>
+                    </div>
+                    <div class="reason-card" style="--i:6"><span>♾️</span>
+                        <p>Nosso amor infinito</p>
+                    </div>
+                </div>
+
+                <div class="love-counter">
+                    <p>Meu amor por você:</p>
+                    <span class="infinity">∞</span>
+                </div>
+
+                <div class="final-card">
+                    <span class="final-heart">💝</span>
+                    <h2>Eu te amo mais do que palavras podem dizer</h2>
+                    <p>Mas eu vou passar a vida inteira tentando demonstrar.</p>
+                    <p class="signature">Com todo meu amor, para sempre 💕</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: ESTUDOS -->
+        <div class="tab-content" id="tabEstudos">
+            <div class="container estudos-container">
+                <h1 class="page-title">Seus Estudos 📚</h1>
+                <p class="page-desc">Organize seus conteúdos de estudo por dia!</p>
+
+                <!-- Add study form -->
+                <div class="add-study-card">
+                    <h3>Adicionar conteúdo</h3>
+                    <form id="studyForm" class="study-form">
+                        <div class="form-row">
+                            <div class="field">
+                                <label for="studyDate">Data</label>
+                                <input type="date" id="studyDate" required>
+                            </div>
+                            <div class="field field-grow">
+                                <label for="studyContent">Conteúdo</label>
+                                <input type="text" id="studyContent" placeholder="Ex: Matemática - Cap. 5" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-sm">Adicionar ✏️</button>
+                    </form>
+                </div>
+
+                <!-- Studies table -->
+                <div class="table-wrapper">
+                    <table class="study-table" id="studyTable">
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Dia da Semana</th>
+                                <th>Mês</th>
+                                <th>Conteúdo</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="studyTableBody">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                    <p class="empty-msg" id="emptyMsg">Nenhum conteúdo adicionado ainda 📝</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
