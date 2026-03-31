@@ -94,6 +94,7 @@
             <div class="nav-links">
                 <button class="nav-link active" data-tab="inicio" id="navInicio">Início</button>
                 <button class="nav-link" data-tab="estudos" id="navEstudos">Estudos</button>
+                <button class="nav-link" data-tab="galeria" id="navGaleria">Galeria</button>
             </div>
         </nav>
 
@@ -101,6 +102,7 @@
         <div class="tab-content active" id="tabInicio">
             <div class="container welcome-container">
                 <div class="welcome-header">
+                    
                     <div class="photo-frame">
                         <img src="foto.jpeg" alt="Meu amor" class="photo-img" id="photoImg">
                     </div>
@@ -113,7 +115,8 @@
                     <p>Hoje é o dia da pessoa mais especial que eu já conheci na minha vida. É tão difícil colocar em
                         palavras tudo o que eu sinto por você, mas eu vou tentar porque você merece ouvir isso todos os
                         dias, e principalmente hoje.</p>
-                    <p>Desde que você apareceu na minha vida, tudo ficou mais bonito. As coisas mais simples, buscar as coisas para você,
+                    <p>Desde que você apareceu na minha vida, tudo ficou mais bonito. As coisas mais simples, buscar as
+                        coisas para você,
                         mandar figurinha antes de dormir, rir de besteira ao seu lado...
                         tudo isso se tornou a melhor parte do meu dia. E é tudo por sua causa. 🥹</p>
                     <p>Eu amo cada pedacinho seu. Amo quando você faz birra, amo quando você ri daquele jeitinho, amo
@@ -211,6 +214,19 @@
                     </table>
                     <p class="empty-msg" id="emptyMsg">Nenhum conteúdo adicionado ainda 📝</p>
                 </div>
+            </div>
+        </div>
+
+        <!-- TAB: GALERIA -->
+        <div class="tab-content" id="tabGaleria">
+            <div class="container galeria-container">
+                <div class="gallery-intro-card">
+                    <h2>Memórias nossas</h2>
+                    <p>Cada foto aqui guarda um jeitinho seu que eu amo e um momento que ficou bonito só porque você estava nele.</p>
+                </div>
+
+                <div class="gallery-grid" id="galleryGrid"></div>
+                <p class="empty-msg" id="galleryEmptyMsg">Ainda não encontrei fotos na galeria 💕</p>
             </div>
         </div>
     </section>
