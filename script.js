@@ -106,7 +106,7 @@ navLinks.forEach(link => {
 });
 
 // ===== GALERIA =====
-// Adicione novas fotos aqui quando colocar novos arquivos na pasta /galeria.
+// Adicione novas fotos aqui quando colocar novos arquivos na pasta principal do projeto.
 const galleryPhotos = [
     {
         file: 'primeira foto.jpeg',
@@ -241,7 +241,7 @@ const galleryPhotos = [
 ];
 
 function buildGalleryPath(fileName) {
-    return encodeURI(`galeria/${fileName}`);
+    return encodeURI(fileName);
 }
 
 function renderGallery() {
